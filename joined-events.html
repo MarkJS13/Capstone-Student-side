@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student_side.css">
+    <!-- <link rel="stylesheet" href="joined-events.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title> Student Home Page </title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img src="./images/dhvsu-logo.jpg" alt="dhsvu">
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search...">
+                 <span class="tooltip"> Search </span>
+            </li>
+            <li>
+                <a href="studenthomepage.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name"> Events </span>
+                </a>
+                 <span class="tooltip"> Events </span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-history'></i>
+                    <span class="links_name"> Joined Events </span>
+                </a>
+                <span class="tooltip"> Joined Events </span>
+            </li>
+            <li>
+                <a href="about.html">
+                    <i class='bx bx-question-mark'></i>
+                    <span class="links_name"> About </span>
+                </a>
+                <span class="tooltip"> About </span>
+            </li>
+            <li>
+                <a href="myprofile.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name"> My Profile </span>
+                </a>
+                 <span class="tooltip"> My Profile </span> 
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <div class="logout_div">
+                        <div class="logout"> Log-out</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Here! -->
+    <section class="home_content">
+        <div class="joined-events-container">
+            <header id="header-joined-events">
+                <nav class="joined-events-menu">
+                    <li class="joined-events-title"> <h1>
+                        Joined Events
+                    </h1></li>
+                    <li class="search-bar-joined">    
+                        <i class='bx bx-search'></i>
+                        <input type="text" placeholder="Search..."> </li>
+                </nav>
+            </header>
+            <section id="joined-event-grid-details">
+                <div class="grid-event1"> ID </div>
+                <div class="grid-event1"> Name </div>
+                <div class="grid-event1"> Date </div>
+                <div class="grid-event1"> Campus  </div>
+                <div class="grid-event1"> Theme </div>
+                <div class="grid-event1"> Description </div>
+
+                <div class="grid-event"> 1 </div>
+                <div class="grid-event"> Flag Raising Ceremony </div>
+                <div class="grid-event"> January 01, 2022 </div>
+                <div class="grid-event"> Bacolor Campus  </div>
+                <div class="grid-event"> Seminar </div>
+                <div class="grid-event"> NA </div>
+   
+                <div class="grid-event"> 2 </div>
+                <div class="grid-event"> Kamustahan </div>
+                <div class="grid-event"> January 20, 2022 </div>
+                <div class="grid-event"> Bacolor Campus  </div>
+                <div class="grid-event"> Seminar </div>
+                <div class="grid-event"> NA </div>
+
+                <div class="grid-event"> 3 </div>
+                <div class="grid-event"> Flag Raising Ceremony </div>
+                <div class="grid-event"> January 01, 2022 </div>
+                <div class="grid-event"> Bacolor Campus  </div>
+                <div class="grid-event"> Webinar </div>
+                <div class="grid-event"> NA </div>
+   
+                <div class="grid-event"> 4 </div>
+                <div class="grid-event"> NA </div>
+                <div class="grid-event"> NA </div>
+                <div class="grid-event"> NA </div>
+                <div class="grid-event"> NA </div>
+                <div class="grid-event"> NA </div>
+            </section>
+
+        </div>
+
+    </section>
+
+
+    <script src="./studenthomepage.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student_side.css">
+    <!-- <link rel="stylesheet" href="./events.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> 
+    <title>Student Home Page</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img src="./images/dhvsu-logo.jpg" alt="dhsvu">
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search...">
+                 <span class="tooltip"> Search </span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name"> Events </span>
+                </a>
+                 <span class="tooltip"> Events </span>
+            </li>
+            <li>
+                <a href="joined-events.html">
+                    <i class='bx bx-history'></i>
+                    <span class="links_name"> Joined Events </span>
+                </a>
+                <span class="tooltip"> Joined Events </span>
+            </li>
+            <li>
+                <a href="about.html">
+                    <i class='bx bx-question-mark'></i>
+                    <span class="links_name"> About </span>
+                </a>
+                <span class="tooltip"> About </span>
+            </li>
+            <li>
+                <a href="myprofile.html">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name"> My Profile </span>
+                </a>
+                 <span class="tooltip"> My Profile </span> 
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <div class="logout_div">
+                        <div class="logout"> Log-out</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Here! -->
+    <section class="home_content">
+        <div class="event-container">
+        <header id="header">
+            <nav class="events-menu">
+                <li class="events-title"> <h1>
+                    All Events 
+                </h1></li>
+                <li class="search-bar">    
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search..."> </li>
+            </nav>
+        </header>
+
+        <section id="events-section">
+            <div class="event event1"> 
+                <h3> Event 1 </h3>
+                <img src="./images/events-sample/flag-ceremony.jpg" alt="#">
+                <h1> Flag Ceremony </h1>
+                <p class="details">View Full Details</p>
+            </div>
+
+            <div class="event event2">
+                <h3> Event 2 </h3>
+                <img src="./images/events-sample/kamustahan.png" alt="#">
+                <h1> Kamustahan </h1>
+                <p class="details"> View Full Details</p> 
+            </div>
+
+            <div class="event event3">
+                <h3> Event 3 </h3>
+                <img src="./images/events-sample/women-month.png" alt="#">
+                <h1> Women's Months </h1>
+                <p class="details">View Full Details</p> 
+            </div>
+
+            <div class="event event4">
+                <h3> Event 4 </h3>
+                <img src="" alt="">
+                <h1> No Event Coming Soon </h1>
+                <p class="details">View Full Details</p> 
+            </div>
+            <div class="event event5">
+                <h3> Event 5 </h3>
+                <img src="" alt="">
+                <h1> No Event Coming Soon </h1>
+                <p class="details">View Full Details</p> 
+            </div>
+
+            
+
+        </section>
+    </div>
+    
+
+
+    <!--- Event Full Details  --->
+    <section class="container-full-events">
+        <div class="exit"> &times; </div>
+        <div class="title">
+            <h1> Details of Event Function </h1>
+        </div>
+
+        <div class="details-event-tile">
+            <div id="photo-section">
+                <img src="./images/events-sample/flag-ceremony.jpg" alt="#">
+                <div class="join-event">
+                    <input type="button" value="Join Event" id="join" name="join">
+                </div>
+            </div>
+
+            <div id="detail-tiles">
+                <div class="tile name"> Name </div>
+                <div class="tile date">Date </div>
+                <div class="tile campus"> Campus </div>
+                <div class="tile theme"> Theme </div>
+                <div class="tile status"> Status </div>
+                <div class="tile min-participants"> Minimum Participants </div>
+                <div class="tile max-participants"> Maximum Participants </div>
+                <div class="tile description"> Description </div>
+
+                <div class="tile name_details"> Flag-raising Ceremony </div>
+                <div class="tile date_details"> January 12, 2022 </div>
+                <div class="tile campus_details"> Bacolor Main - Campus </div>
+                <div class="tile theme_details"> NA </div>
+                <div class="tile status_details"> Upcoming (in 3 days) </div>
+                <div class="tile min-participants_details"> NA </div>
+                <div class="tile max-participants_details"> No limit </div>
+                <div class="tile description_details"> NA </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+</section>   
+
+    <script src="./studenthomepage.js"></script>
+</body>
+</html>

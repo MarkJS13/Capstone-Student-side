@@ -1,0 +1,375 @@
+
+
+
+.my-profile-container .header-my-profile li {
+    list-style: none;
+}
+
+
+.my-profile-container {
+    background-color: rgba(243, 240, 241, 0.616);
+    margin: 20px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 30px auto;
+    grid-template-columns: 280px 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+    padding-top: 8px;
+}
+
+.my-profile-container .header-my-profile {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    background-color: rgba(255, 255, 255, 0.575);
+}
+.my-profile-container .header-my-profile i {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.my-profile-container .header-my-profile a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.my-profile-container .sidebar-myprofile {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 10px;
+    height: 420px;
+    display: grid;
+    grid-template-rows: 300px 50px 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 15px;
+}
+
+.my-profile-container .sidebar-myprofile #profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(12, 12, 12, 0.192);
+}
+
+.my-profile-container .sidebar-myprofile #profile-details i {
+    font-size: 170px;
+    
+}
+
+.my-profile-container .sidebar-myprofile #profile-details .name-user {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.my-profile-container .sidebar-myprofile i{
+    font-size: 20px;
+    
+  }
+
+.my-profile-container .sidebar-myprofile #user-information {
+    grid-column: 1/2;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-bottom: 1px solid rgba(12, 12, 12, 0.192);
+}
+
+.my-profile-container .sidebar-myprofile #user-information:hover {
+    background-color: rgba(238, 169, 217, 0.479);
+    color: white;
+    cursor: pointer;
+}
+
+.my-profile-container .sidebar-myprofile #account-settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.my-profile-container .sidebar-myprofile #account-settings:hover {
+    background-color: rgba(238, 169, 217, 0.288);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.my-profile-container .my-profile-details {
+    grid-row: 2/3;
+    grid-column: 2/4;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 50px;
+    padding-top: 20px;
+    display: none;
+}
+
+.my-profile-container .my-profile-details  .my-profile-title{
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.my-profile-container .my-profile-details  .form-container form{
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 15px;
+    font-size: 13px;
+}
+
+.my-profile-container .my-profile-details  .form-container form input {
+    padding: 3px;
+    width: 140px;
+}
+
+.my-profile-details  .form-container form #student-info {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, 80px);
+    column-gap: 8px
+}
+
+.my-profile-details  .form-container form #student-info .lastname {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.my-profile-details  .form-container form #student-info .firstname {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.my-profile-details  .form-container form #student-info .middlename {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.my-profile-details  .form-container form #student-info .middleinitial {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-profile-details  .form-container form #student-info .gender {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+   
+}
+.my-profile-details  .form-container form #student-info .gender select {
+    padding: 3px;
+    width: 140px;
+}
+
+
+.my-profile-details  .form-container form #student-info .date-of-birth {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+
+.my-profile-details  .form-container form #student-info .email {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.my-profile-details  .form-container form #student-info .contactnumber {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    
+}
+
+.my-profile-details  .form-container form #address {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+    row-gap: 20px;
+}
+
+.my-profile-details  .form-container form #address .title-address {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-weight: 300;  
+    
+}
+
+.my-profile-details  .form-container form #address .complete-address {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-profile-details  .form-container form #address > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-profile-details  .form-container form #address .complete-address input {
+    width: 100%;
+}
+
+.my-profile-details  .form-container form #address .municipality {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.my-profile-details  .form-container form #address .city {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.my-profile-details  .form-container form #address .barangay {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.my-profile-details  .form-container form #address .zipcode {
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+
+/******************/
+
+
+.my-profile-details  .form-container form #emergency-info {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 20px;
+    padding-top: 50px;
+}
+
+
+.my-profile-details  .form-container form #emergency-info > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-profile-details  .form-container form #emergency-info input {
+    width: 100%;
+}
+
+.my-profile-details  .form-container form #emergency-info .emergency-title {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.my-profile-details  .form-container form #emergency-info .emergency-contact-person {
+    grid-row: 2/3;
+    width: 100%;
+    
+}
+
+.my-profile-details  .form-container form #emergency-info .emergency-address {
+    grid-row: 3/4;
+    
+}
+
+.my-profile-details  .form-container form #emergency-info .emergency-mobile-number {
+    grid-row: 4/5;
+}
+
+.my-profile-details  .form-container form .update-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    
+}
+
+.my-profile-details  .form-container form .update-button input {
+    width: 70px;
+}
+
+
+/********account settings********/
+
+.my-profile-container .my-profile-details2 {
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 50px;
+    padding-top: 20px;
+    grid-column: 2/4;
+} 
+
+.my-profile-container .my-profile-details2 .my-profile-title {
+    padding-bottom: 30px;
+}
+
+.my-profile-details2  .form-container form #student-info2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+} 
+
+.my-profile-details2  .form-container form #student-info2 input {
+    padding: 5px;
+}
+
+.my-profile-container .my-profile-details2  .form-container form{
+    font-size: 13px;
+    
+}
+
+.my-profile-details2  .form-container form #student-info2 > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-profile-details2  .form-container form #student-info2 .current-password {
+    grid-row: 1/2;
+    
+}
+
+.my-profile-details2  .form-container form #student-info2 .new-password {
+    grid-row: 2/3;
+    
+}
+
+.my-profile-details2  .form-container form #student-info2 .re-type-password {
+    grid-row: 3/4;
+    
+}
+
+.my-profile-details2  .form-container form #student-info2 .role{
+    grid-row: 4/5;
+    
+}
+
+
+.my-profile-details2  .form-container form #student-info2 .role select {
+    width: 100px;
+}
+
+.my-profile-details2  .update-button2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.my-profile-details2  .update-button2 input {
+    padding: 5px;
+}
+
+.my-profile-container .my-profile-details {
+    display: block;
+}
+
+.my-profile-container .my-profile-details2 {
+    display: none;
+}

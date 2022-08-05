@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student_side.css">
+    <link rel="stylesheet" href="myprofile.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Student Home Page</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <img src="./images/dhvsu-logo.jpg" alt="dhsvu">
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search...">
+                 <span class="tooltip"> Search </span>
+            </li>
+            <li>
+                <a href="studenthomepage.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name"> Events </span>
+                </a>
+                 <span class="tooltip"> Events </span>
+            </li>
+            <li>
+                <a href="joined-events.html">
+                    <i class='bx bx-history'></i>
+                    <span class="links_name"> Joined Events </span>
+                </a>
+                <span class="tooltip"> Joined Events </span>
+            </li>
+            <li>
+                <a href="about.html">
+                    <i class='bx bx-question-mark'></i>
+                    <span class="links_name"> About </span>
+                </a>
+                <span class="tooltip"> About </span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name"> My Profile </span>
+                </a>
+                 <span class="tooltip"> My Profile </span> 
+            </li>
+        </ul>
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <div class="logout_div">
+                        <div class="logout"> Log-out</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>    
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Here! -->
+    <section class="home_content">
+        <div class="my-profile-container">
+            <header class="header-my-profile">
+                <i class='bx bx-home-alt'> <a href="studenthomepage.html">  Home </a> 
+            </i>
+                <li> > Dashboard</li>
+            </header>
+            <sidebar class="sidebar-myprofile">
+                <div id="profile-details">
+                    <div class="user logo"> 
+                        <i class='bx bx-user-circle'></i>
+                    </div>
+
+                    <div class="name-user">
+                        <p> Dela Cruz, Juan P.</p>
+                        <p> STUDENT </p>
+                    </div>
+                </div>
+
+                <div id="user-information">
+                    <i class='bx bxs-user-circle'> User Information </i>
+                </div>
+
+                <div id="account-settings">
+                    <i class='bx bx-info-circle'> Account Settings </i>
+
+                </div>
+            </sidebar>
+            <div class="my-profile-details">
+                <div class="my-profile-title">
+                    <h1> Student Information </h1>
+                </div>
+
+                <div class="form-container">
+                <form action="#">
+                <section id="student-info">
+                    <div class="lastname">
+                        <label for="lastname"> Last Name </label>
+                        <input type="text" value="Dela Cruz" id="lastname">
+                    </div>
+                    
+                    <div class="firstname">
+                        <label for="firstname"> First Name </label>
+                        <input type="text" value="Juan" id="firstname">
+                    </div>
+
+                    <div class="middlename">
+                        <label for="middlename"> Middle Name </label>
+                        <input type="text" value="Pa" id="middlename">
+                    </div>
+                    
+                    <div class="middleinitial">
+                        <label for="middleinitial"> M.I </label>
+                        <input type="text" value="P" id="middleinitial">
+                    </div>
+
+                    <div class="gender">
+                        <label for="date"> Gender
+                        </label>
+                        <select id="date" name="date">
+                          <option value="Male">Male</option>
+                          <option value="Femae">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="date-of-birth">
+                        <label for="birthday">Date of Birth</label>
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+
+                    <div class="email">
+                        <label for="email"> Email </label>
+                        <input type="email" id="email" name="email" value="juandelacruz.com">
+                    </div>
+
+                    <div class="contactnumber">
+                        <label for="contactnumber"> Contact Number </label>
+                        <input type="contactnumber" id="contactnumber" name="contactnumber" value="09123456789">
+                    </div>
+                </section>
+
+                <section id="address">
+                    <div class="title-address"> Address </div>
+                    <div class="complete-address">
+                        <label for="complete-address"> Complete Address </label>
+                        <input type="text" value="Valdez, Floridablanca Pampanga" id="complete-address">
+                    </div>
+                    <div class="municipality">
+                        <label for="municipality"> Municipality / Region </label>
+                        <input type="text" value="Floridablanca" id="municipality">
+                    </div>
+                    
+                    <div class="city">
+                        <label for="city"> City </label>
+                        <input type="text" value="Pampanga" id="city">
+                    </div>
+
+                    <div class="barangay">
+                        <label for="barangay"> Barangay </label>
+                        <input type="text" value="Valdez" id="barangay">
+                    </div>
+
+                    <div class="zipcode">
+                        <label for="zipcode"> Zip Code </label>
+                        <input type="text" value="2006" id="zipcode">
+                    </div>
+
+                </section>
+
+                <section id="emergency-info">
+                    <div class="emergency-title"> Emergency Information </div>
+                    <div class="emergency-contact-person">
+                        <label for="emergency-contact-person"> Emergency Contact Person </label>
+                        <input type="text" value="Juan Dela Cruz" id="emergency-contact-person">
+                    </div>
+                    
+                    <div class="emergency-address">
+                        <label for="emergency-address"> Emergency Adress </label>
+                        <input type="text" value="Same" id="emergency-address">
+                    </div>
+
+                    <div class="emergency-mobile-number">
+                        <label for="emergency-mobile-number"> Emergency Mobile Number </label>
+                        <input type="text" value="091234586" id="emergency-mobile-number">
+                    </div>
+
+                </section>
+
+                    <div class="update-button">
+                        <input type="button" value="Update" name="update-button">
+                    </div>
+                    
+
+                </form>
+
+                
+            </div>
+            </div>
+            
+            <div class="my-profile-details2">
+                <div class="my-profile-title">
+                    <h1> Account Information </h1>
+                </div>
+
+                <div class="form-container">
+                <form action="#">
+                <section id="student-info2">
+                    <div class="current-password">
+                        <label for="current-password"> Current Password </label>
+                        <input type="password" value="" id="current-password">
+                    </div>
+                    
+                    <div class="new-password">
+                        <label for="new-password"> New Password</label>
+                        <input type="password" value="" id="new-password">
+                    </div>
+
+                    <div class="re-type-password">
+                        <label for="re-type-password"> Re-type New Password </label>
+                        <input type="password" value="" id="re-type-password">
+                    </div>
+
+                    <div class="role">
+                        <label for="role"> Role
+                        </label>
+                        <select id="role" name="role">
+                          <option value="Student"> Student </option>
+                          <option value="Admin"> Admin </option>
+                        </select>
+                    </div>
+
+                </section>
+
+                    <div class="update-button2">
+                        <input type="button" value="Save Changes" name="update-button2">
+                    </div>
+                    
+
+                </form>
+
+                
+            </div>
+            </div>
+
+
+            
+        </div>    
+    </section>
+
+
+    <script src="./studenthomepage.js"></script>
+    <script src="./myprofile.js"></script>
+</body>
+</html>
