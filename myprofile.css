@@ -378,4 +378,16 @@
 
 .my-profile-container .my-profile-details2 {
     display: none;
+    margin-bottom: 50px;
+}
+
+#footer-about {
+    background-color: rgb(134, 31, 70);
+    padding: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+    
 }
