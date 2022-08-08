@@ -4,14 +4,12 @@
 .home_content {
     background:linear-gradient(rgba(199, 105, 185, 0.185) 100%, rgba(173, 159, 159, 0.5)100%),url("./images/gad-bg.jpg");
     background-attachment: fixed;
-    backdrop-filter: blur(100px);
-    
-  
     
     
 }
 
 #about-container {
+    backdrop-filter: blur(2px);
     padding: 50px;
     padding-top: 10px;
 }
@@ -22,9 +20,9 @@
     text-align: center;
     padding-top: 100px;
     padding-bottom: 40px;
-    font-family: 'Open Sans';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 75px;
-    background: -webkit-linear-gradient(rgb(245, 217, 245), rgba(80, 4, 53, 0.726));
+    background: -webkit-linear-gradient(rgb(245, 217, 245), rgba(17, 0, 11, 0.952));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     
@@ -126,6 +124,7 @@
 
 #footer-about {
     background-color: rgb(134, 31, 70);
+    background-color: rgba(134, 31, 70, 0.993);
     padding: 30px;
     padding-bottom: 15px;
     display: flex;

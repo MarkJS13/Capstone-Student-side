@@ -24,4 +24,5 @@ console.log(homeContent)
     accountInfoButton.style.backgroundColor = 'rgba(238, 169, 217, 0.479)';
     userInfoButton.style.backgroundColor = 'unset';
     homeContent.style.height = '100vh';
- })
+ });
+

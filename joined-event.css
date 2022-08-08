@@ -1,0 +1,85 @@
+/*************** Joined Event CSS *******************/
+
+
+.joined-events-container {
+    background-color:rgba(245, 236, 239, 0.8);
+    padding: 20px 40px;
+    margin: 50px;
+    border-radius: 10px;
+    height: 100vh;
+    color: rgb(5, 4, 4);
+  
+}
+
+
+
+.joined-events-container  p {
+    margin-bottom: 50px;
+    /* border-bottom: 3px solid rgb(211, 16, 107); */
+    border-bottom: 2.5px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.joined-events-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.joined-events-menu li {
+    list-style: none;
+}
+
+ .joined-events-menu .search-bar-joined {
+    display: flex;
+    column-gap: 5px;
+}
+
+.joined-events-menu .search-bar-joined i {
+    font-size: 35px;
+    height: 100%;
+    transition: all 0.5 ease;
+}
+
+.joined-events-menu .search-bar-joined input {
+    height: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid rgba(12, 12, 12, 0.8);
+    background-color: transparent;
+    padding-left: 10px;
+    
+}
+
+.joined-events-container #header-joined-events {
+    margin: 20px auto;
+}
+
+.joined-events-container #header-joined-events h1 {
+    border-bottom: 2.5px solid black;
+}
+
+
+
+#joined-event-grid-details {
+    display: grid;
+    grid-template-columns: 40px repeat(5, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    
+}
+
+
+#joined-event-grid-details .grid-event1 {
+    background-color: rgba(180, 29, 132, 0.250);
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+#joined-event-grid-details .grid-event {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}

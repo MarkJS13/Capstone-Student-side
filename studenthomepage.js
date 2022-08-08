@@ -32,4 +32,22 @@ eventTile.addEventListener('click', e => {
 });
 
 
+const back = document.querySelector('#header > nav > li.back');
+
+back.addEventListener('click', () => {
+    events.style.display = 'none';
+    frontPage.style.display = 'block';
+})
+
+
+/*****************/
+const frontPage = document.querySelector('.event')
+const viewAll = document.querySelector('#browse-by-category > div.button-event > button');
+
+viewAll.addEventListener('click', () => {
+    
+    events.style.display = 'block';
+    frontPage.style.display = 'none';
+})
+
 
