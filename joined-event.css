@@ -2,6 +2,7 @@
 
 
 .joined-events-container {
+    backdrop-filter: blur(3px);
     background-color:rgba(245, 236, 239, 0.8);
     padding: 20px 40px;
     margin: 50px;

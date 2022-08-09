@@ -1,6 +1,7 @@
 
 .home_content {
-    backdrop-filter: blur(3px);
+    background:linear-gradient(rgba(199, 105, 185, 0.185) 100%, rgba(173, 159, 159, 0.5)100%),url("./images/gad-bg.jpg");
+    background-attachment: fixed;
 }
 
 
@@ -10,7 +11,8 @@
 }
 
 
-.my-profile-container {  
+.my-profile-container { 
+    backdrop-filter: blur(5px); 
     background-color: rgba(121, 113, 119, 0.404);
     margin: 20px;
     margin-top: 10px;

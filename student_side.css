@@ -666,15 +666,14 @@ body {
 
 
 .home_content {
-    background:linear-gradient(rgba(46, 44, 45, 0.349) 100%, rgba(138, 36, 112, 0.726)100%),url("./images/dhvsu.jpg");
-    backdrop-filter: blur(8px) !important;
-    background-size: cover;
+    background:linear-gradient(rgba(46, 44, 45, 0.349) 100%, rgba(138, 36, 112, 0.726)100%),url("./images/gad-bg.jpg");
     background-attachment: fixed;
    
 
 }
 
 .event-container {
+    backdrop-filter: blur(5px);
     display: none;
     background-color:rgba(245, 236, 239, 0.6);
     border: transparent;
