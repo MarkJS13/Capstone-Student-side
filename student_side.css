@@ -354,36 +354,6 @@ body {
     padding: 7px 15px;
 }
 
- #second-section {
-   display: grid;
-   grid-auto-flow: column;
-   grid-template-columns: repeat(3, 200px);
-   justify-content: center;
-   gap: 30px;
-   padding: 90px;
-   background-color: rgb(255, 255, 255);
-}
-
-
- #second-section > div {
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-
- #second-section .webinar {
-    background-color: rgba(135, 207, 235, 0.397);
-}
-
- #second-section .conference {
-    background-color: rgba(235, 135, 213, 0.322);
-}
- #second-section .seminar {
-    background-color: rgba(162, 11, 182, 0.199);
-}
-
 
 #upcoming-event {
     background: rgb(245,245,245);
@@ -780,7 +750,6 @@ body {
 .container-full-events {
     background-color: #fff;
     padding: 50px 70px;
-    margin: 20px; 
     position: relative;
     display: none;
 
